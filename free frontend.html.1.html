@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive Masonry Grid</title>
+</head>
+<style>
+    .container{
+        width: 60%;
+        display: grid;
+        grid-template-areas: 
+        "img1 img2 img3 img4"
+        "img5 img5 img3 img6"
+        "img7 img7 img9 img9"
+    }
+    .item1{
+        grid-area: img1;
+    }
+    .item2{
+        grid-area: img2;
+
+    }
+    .item3{
+        grid-area: img3;
+
+    }
+    .item4{
+        grid-area: img4;
+
+    }
+    .item5{
+        grid-area: img5;
+
+    }
+    .item6{
+        grid-area: img6;
+
+    }
+    .item7{
+        grid-area: img7;
+
+    }
+    .item8{
+        /* grid-area: img8; */
+        grid-template-areas: img8; 
+  }
+    .item9{
+        grid-area: img9;
+    }
+    .item10{
+        grid-area: img10;
+    }
+    img{
+        width:100%;
+        height: 100%;
+        border: 5px solid black;
+        
+    }
+    </style>
+    <head>
+        <div class="container">
+
+            <img src="./image11.jpeg"class="item1">
+            <img src="./grid1.jpeg"class="item2">
+            <img src="./white pocket - Copy.jpeg"class="item3">
+            <img src="./image15.jpeg"class="item4">
+            <img src="./mount.jpeg" class="item5">
+            <img src="./white flowers.jpeg"class="item6">
+            <img src="cherryblossom.jpeg"class="item7">
+            <img src="./nature.jpeg"class="item9">
+        </div>
+    </head>
+</html>
+            
